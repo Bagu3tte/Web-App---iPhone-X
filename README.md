@@ -21,4 +21,4 @@ Copy the folder on our machine and launch the file index.html.
 
 ## Authors
 
-* **François Kiene** - [Baguette](https://github.com/Bagu3tte/)
+[Baguette](https://github.com/Bagu3tte/)
