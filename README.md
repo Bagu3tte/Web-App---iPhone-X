@@ -8,8 +8,9 @@ Copy the folder on our machine and launch the file index.html.
 
 ## Preview
 
-![alt text](https://cdn.discordapp.com/attachments/371261537769226240/379029787613855764/iphone.gif)
-![alt text](https://cdn.discordapp.com/attachments/371261537769226240/379341278325899264/call.gif)
+![alt text](https://i.imgur.com/hCetsRm.png)
+![alt text](https://i.imgur.com/UnsyRka.png)
+![alt text](https://i.imgur.com/YeQGlqU.png)
 
 ## Built With
 
