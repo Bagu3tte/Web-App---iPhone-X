@@ -1,0 +1,15 @@
+<div class="border">
+  <ion-header-bar class="bar-positive">
+    <h1 class="title">Messages</h1>
+  </ion-header-bar>
+  </ion-header-bar>
+  <ion-content>
+    <ion-list>
+      <ion-item class="my-item item-icon-right" ng-repeat="item in getContacts()" item-height="getItemHeight(item)" id="{{ item.isLetter ? (item.letter + '_divider') : ''}}" ng-style="{'line-height': getItemHeight(item) + 'px'}" ng-class="{'item-divider': item.isLetter}">
+        <img class="img-circle" ng-if="!item.isLetter" ng-src="http://placekitten.com/60/{{55 + ($index % 10)}}">
+        {{item.letter || (item.first_name+' '+item.last_name)}}
+        <i ng-if="!item.letter" class="icon ion-ios-arrow-right"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</div>

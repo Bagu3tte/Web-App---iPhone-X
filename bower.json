@@ -1,0 +1,26 @@
+{
+  "name": "iPhone X",
+  "authors": [
+    "Baguette"
+  ],
+  "description": "By Baguette",
+  "main": "index.html",
+  "keywords": [
+    "iphone"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "pubnub": "^4.17.0",
+    "pubnub-angular": "^4.0.3",
+    "betsol-ng-ui-router-styles": "^0.2.2"
+  }
+}

@@ -1,0 +1,131 @@
+body {
+  /*cursor: url('https://ionicframework.com/img/finger.png'), auto;*/ }
+
+.row {
+  margin: 0px !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.col-xs-3 {
+  width: 25%;
+  float: left; }
+
+.phone {
+  background-image: url(../images/dock-bg.png), url(../images/background.png);
+  background-size: 304px 640px;
+  background-repeat: no-repeat;
+  width: 304px;
+  height: 640px;
+  position: relative;
+  margin: 0px;
+  right: 30px;
+  position: absolute;
+  bottom: 0; }
+
+.bar {
+  padding: 0px !important; }
+
+.main-apps {
+  position: absolute;
+  left: 6.6%;
+  top: 6.6%;
+  display: block !important;
+  padding: 0 !important;
+  height: 86.8%;
+  width: 86.8% !important; }
+  .main-apps .app {
+    padding: 0;
+    margin-top: 4.6%;
+    text-align: center;
+    line-height: 15px !important; }
+    .main-apps .app .icon {
+      width: 75%;
+      border-radius: 24%;
+      cursor: pointer; }
+    .main-apps .app .text {
+      display: block;
+      margin-top: 3%;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 70%;
+      font-weight: 600;
+      color: #FFF; }
+
+.dock-apps {
+  position: absolute;
+  left: 10%;
+  top: 80.8%;
+  height: 86.8%;
+  width: 80%; }
+  .dock-apps .app {
+    padding: 0;
+    margin-top: 4.6%;
+    text-align: center; }
+    .dock-apps .app .icon {
+      width: 75%;
+      border-radius: 24%;
+      cursor: pointer; }
+    .dock-apps .app .text {
+      display: block;
+      margin-top: 3%;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 70%;
+      font-weight: 600;
+      color: #FFF; }
+
+.time {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 80%;
+  color: #FFF;
+  top: 3.6%;
+  left: 12%;
+  position: absolute; }
+
+.home {
+  animation: showPad 0.3s ease forwards 1; }
+
+.app-layout {
+  animation: showPad 0.5s ease forwards 1;
+  background-image: url(../images/status-bar.png);
+  background-size: 304px 640px;
+  background-repeat: no-repeat;
+  width: 304px;
+  height: 640px;
+  position: relative; }
+
+.dark {
+  color: black; }
+
+.home-button {
+  height: 4%;
+  width: 37%;
+  position: absolute;
+  bottom: 7.8%;
+  left: 31%;
+  cursor: pointer; }
+
+.button.button-icon.input-button {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  color: #bbb; }
+
+.img-circle {
+  border-radius: 50%; }
+
+.item img {
+  height: 40px;
+  width: 40px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 15px; }
+
+.my-item.item {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.full-width {
+  width: 100%; }
+
+/*# sourceMappingURL=default.css.map */

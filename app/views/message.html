@@ -1,0 +1,17 @@
+<div class="iphone">
+  <div class="border">
+    <form class="chat">
+      <span></span>
+      <div class="messages">
+        <div class="message" ng-repeat="message in messages">
+          <div id="{{$last ? 'last' : ''}}" class="{{message.entry.name == name ? 'myMessage' : 'fromThem'}}">
+            <p>{{message.entry.text}}</p>
+            <date><b>{{message.entry.name}}</b> {{message.timetoken/10000 | date:'dd.MM.yyyy HH:mm:ss'}}</date>
+          </div>
+        </div>
+      </div>
+      <input ng-model="message" type="text" placeholder="Votre message">
+      <input type="submit" value="Envoyer" ng-click="sendMessage()">
+    </form>
+  </div>
+</div>

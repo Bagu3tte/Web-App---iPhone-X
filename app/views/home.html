@@ -1,0 +1,53 @@
+<div class="home">
+<div class="time">
+  {{ date | date:'HH:mm' }}
+</div>
+<div class="main-apps row">
+  <div class="col-xs-3 app">
+    <img src="app/images/icons/maps.png" alt="" class="icon">
+    <span class="text">Plan</span>
+  </div>
+  <div class="col-xs-3 app" ng->
+    <img src="app/images/icons/weather.png" alt="" class="icon">
+    <span class="text">Météo</span>
+  </div>
+  <div class="col-xs-3 app">
+    <img src="app/images/icons/stocks.png" alt="" class="icon">
+    <span class="text">Bourse</span>
+  </div>
+  <div class="col-xs-3 app">
+    <img src="app/images/icons/apple_news.png" alt="" class="icon">
+    <span class="text">News</span>
+  </div>
+  <div class="col-xs-3 app">
+    <img src="app/images/icons/facetime.png" alt="" class="icon">
+    <span class="text">Facetime</span>
+  </div>
+  <div class="col-xs-3 app">
+    <img src="app/images/icons/notes.png" alt="" class="icon">
+    <span class="text">Notes</span>
+  </div>
+  <div class="col-xs-3 app">
+    <img src="app/images/icons/files.png" alt="" class="icon">
+    <span class="text">Fichier</span>
+  </div>
+  <div class="col-xs-3 app" ui-sref="list">
+    <img src="app/images/icons/home.png" alt="" class="icon">
+    <span class="text">Maison</span>
+  </div>
+</div>
+<div class="dock-apps">
+  <div class="col-xs-3 app" ui-sref="call" ui-sref-active="active">
+    <img src="app/images/icons/phone.png" alt="" class="icon">
+  </div>
+  <div class="col-xs-3 app" ui-sref="message({name: 'Willy'})" ui-sref-active="active">
+    <img src="app/images/icons/messages.png" alt="" class="icon">
+  </div>
+  <div class="col-xs-3 app" ui-sref="contact">
+    <img src="app/images/icons/contact.png" alt="" class="icon">
+  </div>
+  <div class="col-xs-3 app">
+    <img src="app/images/icons/safari.png" alt="" class="icon">
+  </div>
+</div>
+</div>
