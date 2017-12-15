@@ -11,6 +11,7 @@ Copy the folder on our machine and launch the file index.html.
 ![alt text](https://i.imgur.com/hCetsRm.png)
 ![alt text](https://i.imgur.com/UnsyRka.png)
 ![alt text](https://i.imgur.com/YeQGlqU.png)
+![alt text](https://i.imgur.com/9CRizF9.png)
 
 ## Built With
 
